@@ -72,7 +72,6 @@
           $.i18nGet = function (key) {
             if (i18nLang != {}) {
               if (i18nLang.hasOwnProperty(key)) return i18nLang[key];
-              else throw new Error('Key not exist');
             } else throw new Error('Call i18n(option) first');
           };
 
