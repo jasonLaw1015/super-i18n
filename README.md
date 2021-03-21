@@ -69,6 +69,7 @@ $("[i18n]").i18n({
     filePrefix: "i18n_",
     fileSuffix: "",
     forever: true,
+    version: "1.0.0",//主要用于清掉浏览器缓存
     callback: function() {
     }
 });

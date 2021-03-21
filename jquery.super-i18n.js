@@ -14,6 +14,7 @@
         filePrefix: 'i18n_',
         fileSuffix: '',
         forever: true,
+        version: "1.0.0",
         callback: function () {},
       };
 
@@ -62,7 +63,8 @@
           options.filePrefix +
           options.lang +
           options.fileSuffix +
-          '.json',
+          '.json&='+
+          options.version,
         function (data) {
           var i18nLang = {};
           if (data != null) {
