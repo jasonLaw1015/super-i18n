@@ -63,7 +63,7 @@
           options.filePrefix +
           options.lang +
           options.fileSuffix +
-          '.json&v='+
+          '.json?v='+
           options.version,
         function (data) {
           var i18nLang = {};
